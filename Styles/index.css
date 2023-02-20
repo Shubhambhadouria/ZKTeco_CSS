@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 44px;
+    background-color: #000000;
+    display: flex;
+}
+
+#box1{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    background-color: #000000;
+}
+#box1>div{
+    color: #FFFFFF;
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+}
+#box1>div>img{
+    height:15px;
+    position: absolute;
+    top: 14px;
+}
+#box2{
+    display: flex;
+    align-items: center;
+    height: 44.58px;
+    background-color: #1d1d1f;
+    color: #FFFFFF;
+}
+#box2>p{
+    margin: auto;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#box3{
+    background-color: #000000;
+    text-align: center;
+}
+#box3>h1{
+    padding-top: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #FFFFFF;
+}
+#box3>h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#box3>button{
+    margin: auto;
+    color: #a7a3a3;
+    border-radius: 20px;
+    padding: 8px;
+    background-color: #000000;
+    border: 1px solid #a7a3a3;
+    font-size: 15px;
+}
+#box3>img{
+    height: 470px;
+    
+}
+#box3>div>span{
+    color: #278ff2;
+    margin-right: 25px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#box3>div{
+    padding-top: 20px;
+}
+
+
+#box4{
+    text-align: center;
+    background-color: #fafafa;
+}
+#box4>h1{
+    padding-top: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #1d1d1f;
+}
+#box4>h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: -1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 100;
+    color: #1d1d1f;
+}
+#box4>button{
+    margin: auto;
+    color: #1d1d1f;
+    border-radius: 20px;
+    padding: 8px;
+    border: 1px solid #a7a3a3;
+    font-size: 15px;
+    background-color: white;
+}
+
+#box4>div>span{
+    color: #278ff2;
+    margin-right: 25px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#box4>div{
+    padding-top: 20px;
+}
+#box4>img{
+    height: 520px;
+    
+}
